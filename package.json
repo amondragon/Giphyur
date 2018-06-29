@@ -1,0 +1,45 @@
+{
+  "name": "giphyur",
+  "version": "1.0.0",
+  "description": "giphy viewer",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "mocha --opts mocha.opts",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "author": "alexis mondragon",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "style-loader": "^0.21.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "chai-jsx": "^1.0.1",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.28.11",
+    "css-modules-require-hook": "^4.2.3",
+    "enzyme": "^2.9.1",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jsdom": "^9.10.0",
+    "mocha": "^5.2.0",
+    "prop-types": "^15.6.2",
+    "sinon": "^6.0.1",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

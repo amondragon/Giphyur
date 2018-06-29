@@ -1,0 +1,8 @@
+--recursive
+--reporter min
+--full-trace
+--require babel-register
+--require babel-polyfill
+--require test/mocha-requires/setup-css-modules-hook
+--require test/mocha-requires/setup-browser-env
+--require test/mocha-requires/setup-ignore-media-files

@@ -21,8 +21,10 @@ class Grid extends Component{
                         <div className={cx('column','col-xs-12','col-sm-6','col-md-3','col-lg-3')} key={id}>
                             {elementArr.map((element)=>{
                                 return <Well bsSize="small" key={element.id}>
-                                            <img src={element.images.downsized.url} />
-                                            <span>{element.title}</span>
+                                            <a href={element.url} target="_blank">
+                                                <img src={element.images.downsized.url} />
+                                                <span>{element.title}</span>
+                                            </a>
                                         </Well>
                             })}
                         </div>)
